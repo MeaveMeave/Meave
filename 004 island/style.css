@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.site-bg {
+    height: 100vh;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+
+}
+
+.left-nav {
+    padding:2rem;
+    justify-content: center;
+}
+
+.right-nav {
+    padding:2rem;
+    justify-content: center;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color:rgb(221, 221, 221);
+    font-weight: bold;
+    font-size: 20px;
+    padding:1rem;
+}
+
+.right-nav a {
+    text-decoration: none;
+    color:rgb(221, 221, 221);
+    font-weight: bold;
+    font-size: 20px;
+    padding:1rem;
+}
+
+.nav-menu {
+    display:flex;
+}
+
+.site-logo {
+    width: 20%;
+    display:flex;
+    justify-content: center;
+}
+
+.about {
+    color:rgb(224, 224, 224);
+    text-align: center;
+    padding:8rem;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.about h1 {
+    padding: 1rem;
+    font-size: 52px;
+}
+
+.choose-button {
+    margin:8rem;
+    background-color: rgb(42, 148, 28);
+    border:none;
+    color: white;
+    padding:20px 57px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.site-main {
+    padding: 6rem;
+    color:rgb(31, 31, 31);
+    font-size:18px;
+}
+
+.first-offer {
+    text-align: center;
+    font-size: 24px;
+}
+
+.first-offer p {
+    padding:2rem;
+}
+
+.offers div {
+    width: 45%;
+    padding-top:2rem;
+}
+
+.offers {
+    padding-top:3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.site-footer {
+    height: 20rem;
+    text-align: center;
+    padding-top:12rem;
+    background-color: rgb(35, 101, 145);
+    color:rgb(241, 241, 241);
+    font-size: 26px;
+}
+
+.site-footer p {
+    padding-top:1rem;
+}
