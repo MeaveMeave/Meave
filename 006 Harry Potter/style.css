@@ -14,6 +14,12 @@
     font-family: 'Underdog', cursive;
 }
 
+body {
+    background-image: url('images/main-bg.jpg');
+    background-size: cover;
+    height:2288px;
+}
+
 .site-header {
     background-image:url('images/header-line.jpg');
     background-size:cover;
@@ -82,16 +88,10 @@ button:hover {
     background-color: rgb(44, 58, 105);
 }
 
-.site-main {
-    background-image: url('images/main-bg.jpg');
-    background-size: cover;
-    height:1144px;
-}
-
-
 
 .section-main {
-    padding:15rem;
+    padding-top:15rem;
+    padding-bottom: 10rem;
     display:flex;
     justify-content: space-around;
     
@@ -113,15 +113,38 @@ button:hover {
 
 
 .image img{
-    height:450px;
+    height:350px;
     width: auto;
+    box-shadow: 1px 1px 5px 1px #000;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    padding-bottom: 10rem;
 }
 
 .text {
     color:rgb(240, 229, 212);
+    padding-top: 4rem;
+    padding-left: 30%;
+    width:450px;
+}
+
+.site-footer {
+    padding:10rem;
+    width: 450px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.site-footer ul {
+    list-style: none;
+    padding:3rem;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
 }
